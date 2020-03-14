@@ -18,6 +18,34 @@ https://postgresapp.com/downloads.html
 
 \help for sql
 
+    Available help:
+      ABORT                            CREATE USER
+      ALTER AGGREGATE                  CREATE USER MAPPING
+      ALTER COLLATION                  CREATE VIEW
+      ALTER CONVERSION                 DEALLOCATE
+      ALTER DATABASE                   DECLARE
+      ALTER DEFAULT PRIVILEGES         DELETE
+      ALTER DOMAIN                     DISCARD
+      ALTER EVENT TRIGGER              DO
+      ALTER EXTENSION                  DROP ACCESS METHOD
+      ALTER FOREIGN DATA WRAPPER       DROP AGGREGATE
+      ALTER FOREIGN TABLE              DROP CAST
+      ALTER FUNCTION                   DROP COLLATION
+      ALTER GROUP                      DROP CONVERSION
+      ALTER INDEX                      DROP DATABASE
+      ALTER LANGUAGE                   DROP DOMAIN
+      ALTER LARGE OBJECT               DROP EVENT TRIGGER
+      ALTER MATERIALIZED VIEW          DROP EXTENSION
+      ALTER OPERATOR                   DROP FOREIGN DATA WRAPPER
+      ALTER OPERATOR CLASS             DROP FOREIGN TABLE
+      ALTER OPERATOR FAMILY            DROP FUNCTION
+      ALTER POLICY                     DROP GROUP
+      ALTER PROCEDURE                  DROP INDEX
+      ALTER PUBLICATION                DROP LANGUAGE
+      ALTER ROLE                       DROP MATERIALIZED VIEW
+      ALTER ROUTINE                    DROP OPERATOR
+    :
+
 or 
 
 \? for psql cli
