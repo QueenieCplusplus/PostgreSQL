@@ -30,20 +30,20 @@ PostgreSQL有幾個專用於延伸套件的功能。 可以增加新的資料型
 # Geometric Types
 
 
-(x,y), Point on a plane
-{A,B,C}, Infinite line
-((x1,y1),(x2,y2)), Finite line segment
-((x1,y1),(x2,y2)), BOX : Rectangular box
-((x1,y1),...), path: Closed path (similar to polygon) 
-[(x1,y1),...], path: Open path
-((x1,y1),...), polygon: Polygon (similar to closed path) 
-<(x,y),r> (center point and radius), CIRCLE: Circle
+    (x,y), Point on a plane
+    {A,B,C}, Infinite line
+    ((x1,y1),(x2,y2)), Finite line segment
+    ((x1,y1),(x2,y2)), BOX : Rectangular box
+    ((x1,y1),...), path: Closed path (similar to polygon) 
+    [(x1,y1),...], path: Open path
+    ((x1,y1),...), polygon: Polygon (similar to closed path) 
+    <(x,y),r> (center point and radius), CIRCLE: Circle
 
 # Network Adress Types
 
-CIDR, IPv4 and IPv6 networks
-INET, IPv4 and IPv6 hosts and networks 
-macaddr, MAC addresses
+    CIDR, IPv4 and IPv6 networks
+    INET, IPv4 and IPv6 hosts and networks 
+    macaddr, MAC addresses
 
 # Array
 
