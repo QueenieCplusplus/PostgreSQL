@@ -16,6 +16,10 @@ DBA
 
 https://postgresapp.com/downloads.html
 
+\g or terminate with semicolon to execute query
+
+\q to quit
+
 \help for sql
 
     Available help:
