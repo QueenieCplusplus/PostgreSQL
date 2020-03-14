@@ -4,12 +4,13 @@ DBA
 
 3/14  
 
-$ brew install postgresql
+    $ brew install postgresql
 
-$ brew services start postgresql
-==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)
+    $ brew services start postgresql
+    ==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)
 
-$ psql
+    $ psql -V
+    psql (PostgreSQL) 12.2
 
 -----------------------------------------------------------------------
 
@@ -18,16 +19,16 @@ https://postgresapp.com/downloads.html
 -----------------------------------------------------------------------
 General options:
 
-  -c, --command=COMMAND    run only single command (SQL or internal) and exit
-  
-  -d, --dbname=DBNAME      database name to connect to (default: "pintred")
-  
-  -f, --file=FILENAME      execute commands from file, then exit
-  
-  -l, --list               list available databases, then exit
-  
-  -v, --set=, --variable=NAME=VALUE
-  
+    -c, --command=COMMAND    run only single command (SQL or internal) and exit
+
+    -d, --dbname=DBNAME      database name to connect to (default: "pintred")
+
+    -f, --file=FILENAME      execute commands from file, then exit
+
+    -l, --list               list available databases, then exit
+
+    -v, --set=, --variable=NAME=VALUE
+
                            set psql variable NAME to VALUE
                            
                            (e.g., -v ON_ERROR_STOP=1)
