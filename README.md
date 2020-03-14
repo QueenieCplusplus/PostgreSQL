@@ -1,8 +1,12 @@
 # PostgreSQL
 
-DBA
+DBA on 3/14  
 
-3/14  
+Feature:
+
+Postgres is an object-relational database, while MySQL is a purely relational database. This means that Postgres includes features like table (model class) inheritance and function overloading, which can be important to certain applications. Postgres also adheres more closely to SQL standards.
+
+-----------------------------------------------------------------------
 
 | Download & Install
 
