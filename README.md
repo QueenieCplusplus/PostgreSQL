@@ -5,6 +5,10 @@ DBA
 3/14  
 
 $ brew install postgresql
+
+$ brew services start postgresql
+==> Successfully started `postgresql` (label: homebrew.mxcl.postgresql)
+
 $ psql
 
 General options:
