@@ -2,22 +2,26 @@
 
 DBA on 3/14  
 
-Feature:
+> Feature:
 
 Postgres is an object-relational database, while MySQL is a purely relational database. This means that Postgres includes features like table (model class) inheritance and function overloading, which can be important to certain applications. Postgres also adheres more closely to SQL standards.
 
-Comparison with MySQL:
+> Comparison with MySQL:
 
 https://faq.postgresql.tw/postgresql-vs-mysql
 
-Support Format:
+> Support Format:
 
 SON 是一種簡單的資料格式，它允許程式設計師儲存和傳遞跨系統的資料內容、資料列表和 key-value 對應。
 PostgreSQL 支援 JSON 和其他 NoSQL 的功能，如內建 XML 支援和 HSTORE 的 key-value 對應。 它還支援將 JSON 資料索引以加快存取速度。
 
+> PKG:
+
+PostgreSQL 通過 PostGIS 延伸套件支持地理空間資料。 地理空間資料有專門的類型和功能，可直接在資料庫級別使用，使開發人員可以更輕鬆地進行分析和撰寫程式。
+
 -----------------------------------------------------------------------
 
-| Download & Install
+> Download & Install
 
 https://postgresapp.com/downloads.html
 
