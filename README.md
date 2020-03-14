@@ -105,17 +105,18 @@ General options:
                            
                            (e.g., -v ON_ERROR_STOP=1)
                            
-  -V, --version            output version information, then exit
-  
-  -X, --no-psqlrc          do not read startup file (~/.psqlrc)
-  
-  -1 ("one"), --single-transaction
-  
+      -V, --version            output version information, then exit
+
+      -X, --no-psqlrc          do not read startup file (~/.psqlrc)
+
+      -1 ("one"), --single-transaction
+
                            execute as a single transaction (if non-interactive)
                            
-  -?, --help[=options]     show this help, then exit
-  
+      -?, --help[=options]     show this help, then exit
+
       --help=commands      list backslash commands, then exit
+      
       --help=variables     list special variables, then exit
 
 Input and output options:
