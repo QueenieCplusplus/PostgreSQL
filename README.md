@@ -15,6 +15,24 @@ https://postgresapp.com/downloads.html
 
     $ psql -V
     psql (PostgreSQL) 12.2
+    
+    $ psql
+    
+    $ pintred(DB_NAME)=# 
+    SELECT setting FROM pg_settings WHERE NAME='data_directory';
+         
+  
+       >>>
+         
+         
+         setting     
+         
+         
+        -------------------------
+         /usr/local/var/postgres
+        (1 row)
+
+
 
 -----------------------------------------------------------------------
 
