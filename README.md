@@ -10,6 +10,11 @@ Comparison with MySQL:
 
 https://faq.postgresql.tw/postgresql-vs-mysql
 
+Support Format:
+
+SON 是一種簡單的資料格式，它允許程式設計師儲存和傳遞跨系統的資料內容、資料列表和 key-value 對應。
+PostgreSQL 支援 JSON 和其他 NoSQL 的功能，如內建 XML 支援和 HSTORE 的 key-value 對應。 它還支援將 JSON 資料索引以加快存取速度。
+
 -----------------------------------------------------------------------
 
 | Download & Install
