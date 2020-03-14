@@ -22,6 +22,8 @@ https://postgresapp.com/downloads.html
 
 $psql back to psql prompt
 
+then-> pintred(DB_Name)=#
+
 \help for sql
 
     Available help:
