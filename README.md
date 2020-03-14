@@ -45,6 +45,10 @@ CIDR, IPv4 and IPv6 networks
 INET, IPv4 and IPv6 hosts and networks 
 macaddr, MAC addresses
 
+# Array
+
+# Interval
+
 -----------------------------------------------------------------------
 
 > Download & Install
