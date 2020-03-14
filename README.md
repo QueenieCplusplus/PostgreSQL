@@ -20,6 +20,8 @@ https://postgresapp.com/downloads.html
 
 \q to quit
 
+$psql back to psql prompt
+
 \help for sql
 
     Available help:
