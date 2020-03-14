@@ -11,6 +11,11 @@ $ brew services start postgresql
 
 $ psql
 
+-----------------------------------------------------------------------
+
+https://postgresapp.com/downloads.html
+
+-----------------------------------------------------------------------
 General options:
 
   -c, --command=COMMAND    run only single command (SQL or internal) and exit
